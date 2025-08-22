@@ -1,0 +1,88 @@
+{
+  "project_id": "example-basic-shapes",
+  "name": "Basic Shapes Example",
+  "created_at": "2024-01-01T12:00:00",
+  "modified_at": "2024-01-01T12:00:00",
+  "settings": {
+    "resolution": "1920x1080",
+    "frame_rate": 30,
+    "quality": "medium_quality",
+    "background_color": "#2b2b2b",
+    "default_animation_duration": 1.0
+  },
+  "metadata": {
+    "description": "A simple example showing basic shapes and animations",
+    "author": "Manim UI Builder",
+    "tags": ["shapes", "basic", "tutorial"],
+    "version": "1.0"
+  },
+  "objects": {
+    "circle-1": {
+      "object_id": "circle-1",
+      "object_type": "Circle",
+      "display_name": "Blue Circle",
+      "properties": {
+        "radius": 1.0,
+        "fill_color": "blue",
+        "stroke_color": "white",
+        "stroke_width": 2.0
+      },
+      "position": [-2, 1, 0]
+    },
+    "square-1": {
+      "object_id": "square-1",
+      "object_type": "Square",
+      "display_name": "Red Square",
+      "properties": {
+        "side_length": 1.5,
+        "fill_color": "red",
+        "stroke_color": "white",
+        "stroke_width": 2.0
+      },
+      "position": [2, 1, 0]
+    },
+    "text-1": {
+      "object_id": "text-1",
+      "object_type": "Text",
+      "display_name": "Title Text",
+      "properties": {
+        "text": "Basic Shapes",
+        "font_size": 48,
+        "text_color": "white"
+      },
+      "position": [0, -2, 0]
+    }
+  },
+  "animations": [
+    {
+      "animation_id": "anim-1",
+      "object_id": "circle-1",
+      "animation_type": "FadeIn",
+      "start_time": 0.0,
+      "duration": 1.0,
+      "properties": {}
+    },
+    {
+      "animation_id": "anim-2",
+      "object_id": "square-1",
+      "animation_type": "FadeIn",
+      "start_time": 1.0,
+      "duration": 1.0,
+      "properties": {}
+    },
+    {
+      "animation_id": "anim-3",
+      "object_id": "text-1",
+      "animation_type": "Write",
+      "start_time": 2.0,
+      "duration": 2.0,
+      "properties": {}
+    }
+  ],
+  "scene_properties": {
+    "background_color": "#2b2b2b",
+    "camera_config": {},
+    "resolution": "1920x1080",
+    "frame_rate": 30
+  }
+}

@@ -68,7 +68,8 @@ class Project:
             }
             
             # Ensure directory exists
-            os.makedirs(os.path.dirname(self.file_path), exist_ok=True)
+            if os.path.dirname(self.file_path):
+                os.makedirs(os.path.dirname(self.file_path), exist_ok=True)
             
             # Save to file
             with open(self.file_path, 'w') as f:
