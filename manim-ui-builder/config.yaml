@@ -1,0 +1,10 @@
+api_key: "${GEMINI_API_KEY}"
+manim_render_path: "/path/to/manim/render"
+export_formats:
+  - "mp4"
+  - "gif"
+  - "json"
+default_template: "basic_animation"
+ui_settings:
+  theme: "light"
+  language: "en"

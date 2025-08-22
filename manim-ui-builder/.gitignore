@@ -1,0 +1,45 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Manim output
+media/
+images/
+videos/
+temp/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# PyQt
+*.ui.py
+*.qrc.py
